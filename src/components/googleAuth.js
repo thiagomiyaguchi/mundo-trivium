@@ -8,7 +8,7 @@ export const GoogleAuthProvider = ({ children }) => {
   
   const googleAuth = useGoogleLogin({
     clientId: "80086172271-9j015n6i9rlrvrisbooopncvk94s17vj.apps.googleusercontent.com",
-    
+    hostedDomain:'colegiotrivium.com.br'
   })
   
   
