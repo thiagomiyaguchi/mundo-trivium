@@ -1,6 +1,7 @@
 import React from 'react';
 import {Route, Redirect} from 'react-router-dom';
 import { useGoogleAuth } from "./googleAuth";
+// import Verifica from './AlunosEM.js';
 
 const PrivateRoute = ({component: Component, ...rest}) => {
 
@@ -8,8 +9,8 @@ const PrivateRoute = ({component: Component, ...rest}) => {
 
     return (
         <div>
-            <Route {...rest} render={props => (
-                isSignedIn ?
+            <Route {...rest} render={props => (              
+                (isSignedIn) ?
                 <Component {...props} />: 
                 <Redirect exact from="/dashboard" to="/" />
             )} />
