@@ -1,23 +1,19 @@
 import React from 'react';
 import ButtonAppBar from './ButtonAppBar';
-import { Container } from './Container.styled';
-// import './PublicPage.css';
-
+import { Container } from '@material-ui/core';
+import BoxComponent from './BoxComponent';
+import '../styles.css'
 
 
 const Home = () => {
-    
  
       return (
         <div>
-
-            
-             <ButtonAppBar />
-            <Container>
-            
-            <h1 className='titulo'> Mundo Trivium </h1>
-            
-            
+            <ButtonAppBar />
+            <Container maxWidth="sm">
+                <div className='container'>
+                    <BoxComponent />
+                </div>
             </Container>
         </div>
     );

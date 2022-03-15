@@ -3,6 +3,7 @@ import	{Link} from 'react-router-dom';
 import PrivateButtonAppBar from './PrivateButtonAppBar';
 import Profile from './Profile';
 import { Container } from './Container.styled';
+import ResponsiveGrid from './ResponsiveGrid';
 
 const Dashboard = () => {
     return (
@@ -10,9 +11,10 @@ const Dashboard = () => {
             <PrivateButtonAppBar position="fixed"/>
             <Container>
                 <Profile />
-                <h2>Dashboard</h2>
-                <Link to="/teste">Teste</Link>
-                <Link to="/video">Vídeo</Link>
+                {/* <Link to="/teste">Teste</Link>
+                <Link to="/video">Vídeo</Link> */}
+
+                <ResponsiveGrid />
             </Container>
         </div>
     );

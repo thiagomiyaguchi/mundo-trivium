@@ -1,0 +1,1 @@
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://iea.imgix.net/817ded0e-7bb6-4b79-b425-65e6f7b705f1/shutterstock_1484419673.jpg?auto=compress%2Cformat&amp;fit=min&amp;q=80&amp;rect=0%2C517%2C3840%2C1643" width="2008" height="859">

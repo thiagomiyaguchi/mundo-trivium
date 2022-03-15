@@ -3,15 +3,15 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import { useGoogleAuth } from './googleAuth';
+// import { useGoogleAuth } from './googleAuth';
 
 
 export default function ButtonAppBar() {
   
-  const { signIn } = useGoogleAuth();
+  // const { signIn } = useGoogleAuth();
   
   return (
     <>
@@ -25,12 +25,12 @@ export default function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            <MenuIcon />
+            {/* <MenuIcon /> */}
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Mundo Trivium
           </Typography>
-          <Button onClick={signIn} color="inherit">Login</Button>
+          {/* <Button onClick={signIn} color="inherit">Login</Button> */}
           {/* <Button onClick={signOut} color="inherit">Logout</Button> */}
         </Toolbar>
       </AppBar>
