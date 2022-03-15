@@ -13,7 +13,7 @@ export default function CardMatematica() {
           component="img"
           height="140"
           image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+          alt="Matemática"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
