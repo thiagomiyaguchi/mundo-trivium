@@ -35,3 +35,20 @@ body{
 a{
     text-decoration: none;
 }
+
+.containerVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.video{
+    height: auto !important;
+    aspect-ratio: 16/9;
+
+}
+
+.grid{
+    margin-top: 30px;
+}
