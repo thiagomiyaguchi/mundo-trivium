@@ -5,10 +5,18 @@ body{
 }
 
 .titulo{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
     color: #1976d2;
+    font-size: 2.5rem;
     text-align: center;
     margin: 50px 0 80px 0;
 }
+
+/* .botao{
+    font-family:'Abel',sans-serif;
+    font-size: 1rem;
+    
+} */
 
 .nome{
     color: #1976d2;
@@ -34,6 +42,7 @@ body{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 .containerVideo{
@@ -50,5 +59,6 @@ a{
 }
 
 .grid{
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }

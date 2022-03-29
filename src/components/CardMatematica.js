@@ -11,8 +11,8 @@ export default function CardMatematica() {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          height="200"
+          image="http://mundotrivium.com.br/img/math.png"
           alt="Matemática"
         />
         <CardContent>

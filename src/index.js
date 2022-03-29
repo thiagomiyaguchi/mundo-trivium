@@ -4,6 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { GoogleAuthProvider } from './components/googleAuth';
 
+
 ReactDOM.render(
   <GoogleAuthProvider>
     <App />

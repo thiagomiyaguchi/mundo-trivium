@@ -22,19 +22,19 @@ export default function ResponsiveGrid() {
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
           
           <Grid item xs={4}>
-            <Link to="/fisica">
+            <Link to="/CadernosFisica">
                <Item><CardFisica /></Item>
             </Link>
           </Grid>
 
            <Grid item xs={4}>
-              <Link to="/video">
+              <Link to="/Matematica">
                 <Item><CardMatematica /></Item>
               </Link>
           </Grid>
 
           <Grid item xs={4}>
-              <Link to="/video">
+              <Link to="/Quimica">
                 <Item><CardQuimica /></Item>
               </Link>
           </Grid>

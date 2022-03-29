@@ -1,20 +1,23 @@
 import React from 'react';
-// import	{Link} from 'react-router-dom';
+import	{Link} from 'react-router-dom';
 import PrivateButtonAppBar from './PrivateButtonAppBar';
-import Profile from './Profile';
 import { Container } from './Container.styled';
-import ResponsiveGrid from './ResponsiveGrid';
+import QuimicaUnidades from './QuimicaUnidades';
 
-const Dashboard = () => {
+const Quimica = () => {
     return (
         <div>
             <PrivateButtonAppBar position="fixed"/>
             <Container>
-                <Profile />
-                <ResponsiveGrid />
+            <div>
+              <h1 className='nome'>Química</h1>
+            </div>
+                
+                <QuimicaUnidades />
+          
             </Container>
         </div>
     );
 };
 
-export default Dashboard;
+export default Quimica;

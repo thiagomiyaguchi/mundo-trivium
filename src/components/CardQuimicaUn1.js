@@ -5,22 +5,22 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-export default function CardFisica() {
+export default function CardQuimicaUn1() {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="200"
-          image="http://mundotrivium.com.br/img/f.png"
+          height="140"
+          image="http://mundotrivium.com.br/img/fisica_quadro.jpg"
           alt="Física"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Física
+            Unidade 1
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Resolução dos exercícios da apostila de Física com o Professor Daniel 
+            Faça em Casa - Página:09
           </Typography>
         </CardContent>
       </CardActionArea>

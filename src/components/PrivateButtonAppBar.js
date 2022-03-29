@@ -5,6 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { useGoogleAuth } from './googleAuth';
+import	{Link} from 'react-router-dom';
 
 
 export default function PrivateButtonAppBar() {
@@ -16,12 +17,13 @@ export default function PrivateButtonAppBar() {
       <AppBar position="static">
         <Toolbar>
 
+        <Link to="/dashboard">
            <Button color="inherit">
              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-               Mundo Trivium
+              Mundo Trivium
              </Typography>
            </Button>
-
+        </Link>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
            
           </Typography>

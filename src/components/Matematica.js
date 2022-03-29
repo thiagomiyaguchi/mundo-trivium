@@ -1,20 +1,22 @@
 import React from 'react';
-// import	{Link} from 'react-router-dom';
+import	{Link} from 'react-router-dom';
 import PrivateButtonAppBar from './PrivateButtonAppBar';
-import Profile from './Profile';
 import { Container } from './Container.styled';
-import ResponsiveGrid from './ResponsiveGrid';
+// import FisicaUnidades from './FisicaUnidades';
 
-const Dashboard = () => {
+const Matematica = () => {
     return (
         <div>
             <PrivateButtonAppBar position="fixed"/>
             <Container>
-                <Profile />
-                <ResponsiveGrid />
+            <div>
+              <h1 className='nome'>Matemática</h1>
+            </div>
+                {/* <FisicaUnidades /> */}
+          
             </Container>
         </div>
     );
 };
 
-export default Dashboard;
+export default Matematica;

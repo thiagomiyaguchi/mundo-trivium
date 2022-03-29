@@ -12,7 +12,7 @@ export default function CardFisicaUn3() {
         <CardMedia
           component="img"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="http://mundotrivium.com.br/img/fisica_quadro.jpg"
           alt="Física"
         />
         <CardContent>
@@ -20,7 +20,7 @@ export default function CardFisicaUn3() {
             Unidade 3
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Página:00
+          Faça em Casa - Página:36
           </Typography>
         </CardContent>
       </CardActionArea>
