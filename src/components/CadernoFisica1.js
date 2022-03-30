@@ -13,14 +13,14 @@ export default function CadernoFisica1() {
 
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
-          <CardMedia
+          {/* <CardMedia
             component="img"
             height="140"
             image="http://mundotrivium.com.br/img/fisica_quadro.jpg"
             alt="Física"
-          />
+          /> */}
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h3" component="div">
               Caderno 1
             </Typography>
           </CardContent>

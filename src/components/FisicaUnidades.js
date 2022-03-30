@@ -25,10 +25,10 @@ const Item = styled(Paper)(({ theme }) => ({
 
 
 export default function FisicaUnidades() {
-  const [url,setUrl] = useState('http://mundotrivium.com.br/videos/fisica_unidade1.mp4')
+  const [url,setUrl] = useState('')
   const [play,setPlay] =useState(false);
   
-  const FisUn1 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade1.mp4');setPlay(true); window.scrollTo(0, 120)}
+  const FisUn1 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade1.mp4');setPlay(true); window.scrollTo(0, 220)}
   const FisUn2 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade2.mp4');setPlay(true);window.scrollTo(0, 120)}
   const FisUn3 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade3.mp4');setPlay(true);window.scrollTo(0, 120)}
 
@@ -37,15 +37,6 @@ export default function FisicaUnidades() {
     
     <Box className='containerVideo' sx={{ flexGrow: 1 }}>
       
-         <ReactPlayer className='video' playing={play} width="90%" config={{
-          file: {
-            attributes: {
-              onContextMenu: e => e.preventDefault(),
-              controlsList: 'nodownload'
-            }
-            }
-            
-          }} controls url={url} />
 
         
         
@@ -70,6 +61,16 @@ export default function FisicaUnidades() {
 
       </Grid>
       </div>
+         <ReactPlayer className='video' playing={play} width="90%"  config={{
+          file: {
+            attributes: {
+              onContextMenu: e => e.preventDefault(),
+              controlsList: 'nodownload',
+             
+            }
+            }
+            
+          }} controls url={url} />
     </Box>
   );
 }
