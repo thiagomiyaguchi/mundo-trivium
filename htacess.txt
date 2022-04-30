@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]
+
+</IfModule>
+
+
+
+Options All -Indexes
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:X2h7lQepSq
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?mundotrivium.com.br/.*$      [NC]
+RewriteRule .*\.(.*|jpg|jpeg|gif|png|bmp|tiff|avi|mpeg|mpg|wma|mov|zip|rar|exe|mp3|pdf|swf|psd|txt|html|htm|php)$ http://mundotrivium.com.br [R,NC]
+
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE X2h7lQepSq:HOTLINKID

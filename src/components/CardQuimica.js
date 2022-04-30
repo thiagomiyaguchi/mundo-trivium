@@ -8,11 +8,12 @@ import { CardActionArea } from '@mui/material';
 export default function CardQuimica() {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+      <CardActionArea sx={{ display: 'flex', flexDirection:'column', justifyContent:'center'}}>
         <CardMedia
           component="img"
-          height="200"
-          image="http://mundotrivium.com.br/img/quimica.png"
+          // height="200"
+          sx={{ width: 151 }}
+          image="http://mundotrivium.com.br/img/quimica.svg"
           alt="Química"
         />
         <CardContent>

@@ -2,7 +2,7 @@ import React from 'react';
 import	{Link} from 'react-router-dom';
 import PrivateButtonAppBar from './PrivateButtonAppBar';
 import { Container } from './Container.styled';
-import QuimicaUnidades from './QuimicaUnidades';
+import CadernosQuimica from './CadernosQuimica';
 
 const Quimica = () => {
     return (
@@ -13,7 +13,7 @@ const Quimica = () => {
               <h1 className='nome'>Química</h1>
             </div>
                 
-                <QuimicaUnidades />
+                <CadernosQuimica />
           
             </Container>
         </div>

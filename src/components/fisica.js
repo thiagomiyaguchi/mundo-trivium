@@ -1,10 +1,9 @@
 import React from 'react';
-import	{Link} from 'react-router-dom';
 import PrivateButtonAppBar from './PrivateButtonAppBar';
 import { Container } from './Container.styled';
-import FisicaUnidades from './FisicaUnidades';
+import CadernosFisica from './CadernosFisica';
 
-const fisica = () => {
+const Fisica = () => {
     return (
         <div>
             <PrivateButtonAppBar position="fixed"/>
@@ -12,11 +11,11 @@ const fisica = () => {
             <div>
               <h1 className='nome'>Física</h1>
             </div>
-                <FisicaUnidades />
+                <CadernosFisica />
           
             </Container>
         </div>
     );
 };
 
-export default fisica;
+export default Fisica;

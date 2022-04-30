@@ -3,7 +3,7 @@ import React from 'react';
 import PrivateButtonAppBar from './PrivateButtonAppBar';
 import Profile from './Profile';
 import { Container } from './Container.styled';
-import ResponsiveGrid from './ResponsiveGrid';
+import Disciplinas from './Disciplinas';
 
 const Dashboard = () => {
     return (
@@ -11,7 +11,7 @@ const Dashboard = () => {
             <PrivateButtonAppBar position="fixed"/>
             <Container>
                 <Profile />
-                <ResponsiveGrid />
+                <Disciplinas />
             </Container>
         </div>
     );

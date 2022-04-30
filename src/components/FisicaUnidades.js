@@ -28,9 +28,9 @@ export default function FisicaUnidades() {
   const [url,setUrl] = useState('')
   const [play,setPlay] =useState(false);
   
-  const FisUn1 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade1.mp4');setPlay(true); window.scrollTo(0, 220)}
-  const FisUn2 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade2.mp4');setPlay(true);window.scrollTo(0, 120)}
-  const FisUn3 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade3.mp4');setPlay(true);window.scrollTo(0, 120)}
+  const FisUn1 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade1.mp4');setPlay(true); window.scrollTo(0, 500)}
+  const FisUn2 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade2.mp4');setPlay(true);window.scrollTo(0, 500)}
+  const FisUn3 = () => {setUrl('http://mundotrivium.com.br/videos/fisica_unidade3.mp4');setPlay(true);window.scrollTo(0, 500)}
 
 
   return ( 

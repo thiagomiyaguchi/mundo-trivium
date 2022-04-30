@@ -7,12 +7,13 @@ import { CardActionArea } from '@mui/material';
 
 export default function CardFisica() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia
+    <Card sx={{ maxWidth: 345}}>
+      <CardActionArea sx={{ display: 'flex', flexDirection:'column', justifyContent:'center'}}>
+        <CardMedia 
           component="img"
-          height="200"
-          image="http://mundotrivium.com.br/img/f.png"
+          // height="200"
+          sx={{ width: 151 }}
+          image="http://mundotrivium.com.br/img/fisica.svg"
           alt="Física"
         />
         <CardContent>

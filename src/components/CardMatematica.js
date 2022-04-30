@@ -8,11 +8,12 @@ import { CardActionArea } from '@mui/material';
 export default function CardMatematica() {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia
+      <CardActionArea sx={{ display: 'flex', flexDirection:'column', justifyContent:'center'}} >
+        <CardMedia 
           component="img"
-          height="200"
-          image="http://mundotrivium.com.br/img/math.png"
+          // height="200"
+          sx={{ width: 151 }}
+          image="http://mundotrivium.com.br/img/matematica.svg"
           alt="Matemática"
         />
         <CardContent>
