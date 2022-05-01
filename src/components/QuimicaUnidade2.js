@@ -9,8 +9,8 @@ export default function QuimicaUnidade2() {
     const [url,setUrl] = useState('')
     const [play,setPlay] =useState(false);
     
-    const QuiUn2Part1 = () => {setUrl('http://mundotrivium.com.br/videos/quimica_fec_unidade1.mp4');setPlay(true); window.scrollTo(0, 500)}
-    const QuiUn2Part2 = () => {setUrl('http://mundotrivium.com.br/videos/quimica_fec_unidade2.mp4');setPlay(true);window.scrollTo(0, 500)}
+    const QuiUn2Part1 = () => {setUrl('http://mundotrivium.com.br/videos/quimica_fec_unidade2.mp4');setPlay(true); window.scrollTo(0, 500)}
+    const QuiUn2Part2 = () => {setUrl('http://mundotrivium.com.br/videos/quimica_fec_unidade2_pt2.mp4');setPlay(true);window.scrollTo(0, 500)}
     
   
 

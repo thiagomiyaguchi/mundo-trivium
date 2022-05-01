@@ -12,16 +12,16 @@ import	{Link} from 'react-router-dom';
 export default function CadernosFisica() {
   return (
     <div>
-      <Accordion>
+      <Accordion sx={{marginBottom:'10px'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
           {/* <Typography gutterBottom variant="h3" component="div">Caderno 1</Typography> */}
-          <Typography gutterBottom variant="h3" component="div">
+          <Typography gutterBottom variant="h3" component="div" sx={{marginBottom:'0px'}}>
               <Grid container direction="row" alignItems="center" justifyContent='center'>
-                Caderno 1<MenuBookTwoToneIcon fontSize="inherit" color='primary' />
+                Caderno 1<MenuBookTwoToneIcon fontSize="inherit" color='primary' sx={{marginLeft:'20px'}}/>
               </Grid>
           </Typography>
 
@@ -53,6 +53,41 @@ export default function CadernosFisica() {
             </Link>
 
           </Typography>
+
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion sx={{marginBottom:'10px'}} >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          {/* <Typography gutterBottom variant="h3" component="div">Caderno 1</Typography> */}
+          <Typography gutterBottom variant="h3" component="div" sx={{marginBottom:'0px'}}>
+              <Grid container direction="row" alignItems="center" justifyContent='center'>
+                Caderno 2<MenuBookTwoToneIcon fontSize="inherit" color='primary' sx={{marginLeft:'20px'}}/>
+              </Grid>
+          </Typography>
+
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography >
+            <Link to="/FisicaCaderno2Unidade1">
+              <Button color="primary" size='large' variant="contained" sx={{width: '100%', marginBottom:'10px'}}>
+                  Unidade 1
+              </Button>
+            </Link> 
+            
+            <Link to="/FisicaCaderno2Unidade2">
+              <Button color="primary" size='large' variant="contained" sx={{width: '100%', marginBottom:'10px'}}>
+                  Unidade 2
+              </Button>
+            </Link> 
+
+
+          </Typography>
+
         </AccordionDetails>
       </Accordion>
 
